@@ -1,0 +1,9 @@
+.metals
+.vscode
+.bloop
+.bsp
+.DS_Store
+target
+project/project
+metals.sbt
+**/build
