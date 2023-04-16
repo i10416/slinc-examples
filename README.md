@@ -8,6 +8,14 @@ This repository contains a set of small examples demonstrating how to use SlinC.
 
 Before trying use-pkg, portaudio-wav, run `cd pkg && sbt publishLocal` to locally publish libportaudio binding.
 
+NOTE:
+currently, I use libportaudio for darwin arm64. If your local machine is different OS and CPU architecture, please use proper libportaudio binary for your OS and architecture.
+
+NOTE:
+There are 2 samples for slinc as slinc 0.3.x has different API from slinc 0.1.x and 0.2.x.
+
+
+
 - cstd: example of calling c function from standard library in Scala with SlinC 0.1.1-110-7863cb and in Java 
 - cstd-0.3: example of calling c function from standard library in Scala with SlinC 0.3.0
 - sharedlib: example of calling function from shared library in Scala 3 with SlinC 0.1.1-110-7863cb and in Java
@@ -18,7 +26,5 @@ Before trying use-pkg, portaudio-wav, run `cd pkg && sbt publishLocal` to locall
 - pkg: package native library as a Scala library
 - use-pkg: use Scala library containing native library
 - scalanativeinterop: call scala native shared library from jvm!
-
-
 
 
